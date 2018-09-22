@@ -1,0 +1,17 @@
+﻿演習1-1 DBMSの情報確認 皆さんが現在使っている、またはこれまでに使ってきた
+リレーショナルデータベースのDBMSについて、以下の情報を確認してください。
+
+①使用しているDBMSのバージョン、及びそのDBMSの最新バージョン
+
+現在(2018/9/18)使用しているDBMSのバージョン : PostgreSQL 10.5
+DBMSの最新バージョン : PostgreSQL 10.5
+
+②エディション
+
+PostgreSQLに他エディションはありませんでした。
+
+③マニュアルの所在
+
+PostgreSQL10.5(英語・SGML) https://git.postgresql.org/gitweb/?p=postgresql.git;a=commit;h=4191e37a9a1fb598267c445c717914012d9bc423
+PostgreSQL 10 (英語・HTML) https://www.postgresql.org/docs/current/static/
+PostgreSQL 10.5(日本語版)  https://github.com/pgsql-jp/jpug-doc/issues/1292
