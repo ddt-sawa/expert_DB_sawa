@@ -1,0 +1,18 @@
+﻿演習 6-2 インデックスの再編成
+
+「B-treeインデックスに関するその他の注意事項」(178ページ)で、B-treeインデックスは
+更新が発生することで時間とともに構造が崩れ、性能が劣化することを説明しました。
+これを防止するためにインデックスの再編成が必要になります。再編成を実施するための
+具体的な方法を、DBMSごとに調べてください。
+
+・MySQL     :  OPTIMIZE TABLE テーブル名
+
+・SQLite    :　REINDEX インデックス名
+
+・PostgreSQL:  REINDEX　インデックス名
+
+・Oracle    :  ALTER INDEX インデックス名 REBUILD(COALESCE)
+
+・SQL Server:  ALTER INDEX インデックス名　REBUILD(REORGANIZE)
+
+※()は部分的再構築
