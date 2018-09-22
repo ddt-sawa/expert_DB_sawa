@@ -1,0 +1,10 @@
+﻿演習 9-2 実数のデータ型
+ 入れ子区間モデルの「左端」「右端」の列を実装するためのデータ型を、
+以下のDBMSの最新バージョンについて調べなさい。
+桁精度はプラットフォームによって変わるので省略
+
+・Oracle18c      ①number,②binary_float,③binary_double
+・SQLServer2017  ①real,②float
+・DB211.1        ①real,②decfloat,③double
+・PostgreSQL10.5 ①real,②doubleprecision
+・MySQL8.0       ①real,②float,③double
